@@ -50,6 +50,7 @@ button {
     border: none;
     border-radius: 8px;
     padding: 15px 28px;
+    cursor: pointer;
 }
 
 .banner-img img {
@@ -57,3 +58,56 @@ button {
     margin-top: 20px;
     vertical-align: middle;
 }
+
+/* section part start */
+
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+#featured {
+    padding: 100px 0;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+
+.section-content .flower .flower-img {
+    width: 380px;
+    height: 400px;
+    border-radius: 300px 300px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 20px;
+}
+
+.section-content .flower .flower-img img {
+    width: 70%;
+    padding: 20px 50px 0;
+}
+
+.section-content .flower p {
+    text-align: center;
+    margin: 10px;
+    font-weight: 800;
+    color: #272727;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
