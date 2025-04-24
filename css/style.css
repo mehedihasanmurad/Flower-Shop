@@ -228,3 +228,31 @@ input {
 .btn {
     margin-left: -10px;
 }
+
+
+/* footer part added */
+
+footer {
+    background-color: #111010;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-top: 140px; 
+}
+
+footer h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 14px;
+    /* height: 300px; */
+    width: ;
+}
+
+.copy-write {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.4);
+}
