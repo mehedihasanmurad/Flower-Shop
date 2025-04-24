@@ -104,7 +104,7 @@ button {
 
 .section-content .flower p {
     text-align: center;
-    margin: 10px;
+    margin: 20px;
     font-weight: 800;
     color: #272727;
     text-decoration: underline;
@@ -130,4 +130,47 @@ button {
 .person-text p {
     color: #272727;
     margin-top: 10px;
+}
+
+
+/* deal part start */
+
+.deal {   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(229, 84, 115, 0.10);
+}
+
+.deal-text {
+    max-width: 400px;
+}
+
+span {
+    color: #E55473;
+}
+
+.deal-text h2 {
+    color: #272727;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.deal-text p {
+    text-align: center;
+    color: #272727;
+    font-size: 14px;
+}
+
+.deal-text button {
+    text-align: center;
+    margin: 15px 100px;
+}
+
+.deal-image img {
+    width: 100%;
+    padding: 60px 0;
 }
