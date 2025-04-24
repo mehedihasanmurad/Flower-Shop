@@ -111,3 +111,23 @@ button {
     cursor: pointer;
 }
 
+
+/* Person part added */
+.person {
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-evenly;    
+    padding: 40px 0;
+    margin-bottom: 60px;
+}
+
+.person-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-text p {
+    color: #272727;
+    margin-top: 10px;
+}
