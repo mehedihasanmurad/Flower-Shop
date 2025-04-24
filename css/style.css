@@ -64,7 +64,7 @@ button {
 .section-heading {
     max-width: 500px;
     text-align: center;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 .section-heading h2 {
@@ -73,7 +73,12 @@ button {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-top: 80px;
     margin-bottom: 10px;
+}
+
+.section-heading p {
+    font-size: 14px;
 }
 
 #featured {
@@ -173,4 +178,11 @@ span {
 .deal-image img {
     width: 100%;
     padding: 60px 0;
+}
+
+
+/* Instagram part start */
+
+.instagram-img img{
+    width: 275px;
 }
